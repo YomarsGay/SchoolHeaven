@@ -1,0 +1,86 @@
+html {
+  text-align: center;
+ background:url("images/background.gif");no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Righteous', cursive;
+  font-size:30px;
+
+}
+
+
+h1 {
+  outline: 5px dotted white;
+  color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+.fcc-btn {
+  background-color: yellow;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Alegreya SC';font-size: 22px;
+  border-radius: 20%;
+}
+
+.fcc-btn:hover {
+  background-color: #cccc00;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Alegreya SC';font-size: 22px;
+}
+
+ul {
+  				list-style-type: none;
+  				margin: 0;
+  				padding: 0;
+  				overflow: hidden;
+ 				background-color: #333;
+}	
+
+li {
+	float: left;
+}
+			
+			li a {
+  				display: block;
+  				color: white;
+  				text-align: center;
+  				padding: 14px 16px;
+  				text-decoration: none;
+font-family: 'Righteous', cursive;
+                font-size: 18px;
+				}
+
+			li a:hover {
+ 				 background-color: #111;
+				}
+			p{
+          		padding: 0px 16px;
+          		color: white;
+font-family: 'Righteous', cursive;
+          		letter-spacing: 2px;
+}

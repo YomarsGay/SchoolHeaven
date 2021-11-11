@@ -1,0 +1,219 @@
+html {
+  text-align: center;
+ background:url("images/background.gif");no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  outline: 5px dotted white;
+  font-family: 'Righteous', cursive;
+  font-size:30px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+.fcc-btn {
+  background-color: yellow;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Alegreya SC';font-size: 22px;
+  border-radius: 20%;
+}
+
+.fcc-btn:hover {
+  background-color: #cccc00;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Alegreya SC';font-size: 22px;
+}
+
+  ul {
+  				list-style-type: none;
+  				margin: 0;
+  				padding: 0;
+  				overflow: hidden;
+ 				background-color: #333;
+}	
+
+  li {
+	float: left;
+}
+			
+  li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Righteous', cursive;
+font-size: 18px;
+}
+
+  li a:hover {
+background-color: #111;
+}
+
+  p{
+padding: 0px 16px;
+color: white;
+font-family: 'Righteous', cursive;
+letter-spacing: 2px;
+}
+
+.logo {
+  border: 1px solid black;
+  border-radius: 50%;
+  filter: invert(100%);
+}
+
+.hometext {
+font-family: 'Righteous', cursive;
+Font-size: 30px;
+}
+
+i {
+  color: white;
+}
+
+i:hover {
+  border-radius: 10px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.settab8 {
+width: 30%;
+margin-top: 14px;
+outline: none;
+color: white;
+border-radius: 5px;
+padding: 3px;
+padding-left: 8px;
+border: 1.5px solid white;
+font-size: 15px;
+height: 28px;
+background-color: rgb(16,16,16,0);
+}
+
+.settit {
+width: 62px;
+color: white;
+border-radius: 5px;
+padding: 3px;
+border: 1.5px solid white;
+font-size: 15px;
+height: 38px;
+background-color: rgb(16,16,16,0);
+cursor: pointer;
+}
+
+.settit:hover {
+width: 62px;
+color: black;
+border-radius: 5px;
+padding: 3px;
+border: 1.5px solid black;
+font-size: 15px;
+height: 38px;
+background-color: white;
+cursor: pointer;
+}
+
+#chatbox {
+position: absolute;
+top: 60px; 
+left: 0; 
+right: 0; 
+bottom: 0;
+border: none;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.link:hover {
+  background-color: #736f6f;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
