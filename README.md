@@ -9,5 +9,5 @@ Check out Mozilla's docs for each here:
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Deploy
-<a href="https://repl.it/github/FogNetwork/Rusty"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
+Deploy<br>
+<a href="https://replit.com/@IlyaNekrasov/SchoolHeaven-1"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
