@@ -110,7 +110,9 @@ box-sizing: border-box;
 padding:70px 30px;
 }
 
-
+.unb:hover {
+  cursor: not-allowed;
+}
 
 .back {
   background-color: orange;
@@ -342,4 +344,11 @@ cursor: pointer;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
 }

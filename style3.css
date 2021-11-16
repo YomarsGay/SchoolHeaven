@@ -7,6 +7,13 @@ html {
   background-size: cover;
 }
 
+footer {
+  border: 2px solid white;
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
 
 h1 {
   outline: 5px dotted white;
@@ -14,6 +21,13 @@ h1 {
   font-size:30px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+padding: 0px 16px;
+color: white;
+font-family: 'Righteous', cursive;
+letter-spacing: 2px;
 }
 
 #bg {
@@ -53,6 +67,7 @@ h1 {
 }
 
   ul {
+    
   				list-style-type: none;
   				margin: 0;
   				padding: 0;
@@ -217,3 +232,48 @@ border: none;
   display: block;
 }
 
+.alert {
+  width: 1000px;
+  border-radius: 5%;
+  padding: 20px;
+  background-color: white; /* Red */
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: gray;
+}
+
+.info {
+  border: white;
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+.unb:hover {
+  cursor: not-allowed;
+}
+
+.btn {
+  color: lightskyblue;
+}
+
+.btn:hover{
+  border: rgb(114, 114, 202);
+  border-radius: 10%;
+  background-color: rgb(114, 114, 202);
+}

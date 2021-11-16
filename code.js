@@ -1,7 +1,3 @@
-
-
-
-
 var title = localStorage.getItem("title")
 
 if (localStorage.hasOwnProperty("title")) {
